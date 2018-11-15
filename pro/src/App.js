@@ -6,7 +6,7 @@ import Login from './components/login';
 import Register from './components/register';
 import Zhuye from './components/zhuye';
 import Demo from './components/demo';
-
+import Swiper  from './components/swiper ';
 
 class App extends Component {
   render() {
@@ -18,6 +18,7 @@ class App extends Component {
               <Route path='/register' component={Register}></Route>
               <Route path='/zhuye' component={Zhuye}></Route>
               <Route path='/demo' component={Demo}></Route>
+<Route path='/swiper' component={Swiper }></Route>
               <Redirect to='/zhuye'/>
             </Switch>
           </div>
@@ -27,3 +28,5 @@ class App extends Component {
 }
 
 export default App;
+
+
