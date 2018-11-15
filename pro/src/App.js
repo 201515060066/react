@@ -5,6 +5,7 @@ import {BrowserRouter as Router, Route ,Switch,Redirect} from 'react-router-dom'
 import Login from './components/login';
 import Register from './components/register';
 import Zhuye from './components/zhuye';
+import Demo from './components/demo';
 
 
 class App extends Component {
@@ -16,6 +17,7 @@ class App extends Component {
               <Route path='/login' component={Login}></Route>
               <Route path='/register' component={Register}></Route>
               <Route path='/zhuye' component={Zhuye}></Route>
+              <Route path='/demo' component={Demo}></Route>
               <Redirect to='/zhuye'/>
             </Switch>
           </div>

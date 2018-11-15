@@ -9,6 +9,7 @@ class Zhuye extends Component {
                 <h1>Zhuye</h1>
                 <Link to='/login'>登录</Link>
                 <Link to='/register'>注册</Link>
+                <Link to='/demo'>首页</Link>
             </div>
         )
     }
